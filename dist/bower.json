@@ -1,0 +1,19 @@
+{
+  "name": "Day18",
+  "version": "0.0.0",
+  "authors": [
+    "Joshua Lagrange <jlagrange87@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "backbone": "~1.2.0"
+  }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IMDB Search</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body>
+	<button id="goBack"class="btn"><a href="#">Go Back</a></button>
+	<main>
+		<section class="page" id="home">
+		<h1 class="big">Movie Search</h1>
+		<form id="searchform1">
+			<input type="text" placeholder="Movie Title" id="search-query">
+			<button class="btn">Search</button>
+		</form>
+		</section>
+		<section class="page" id="search">
+			<h1 class="big">Results</h1>
+			<div id="results">
+				<ul></ul>
+			</div>
+			<form id="searchform2">
+				<input type="text" placeholder="Movie Title" id="again-query">
+				<button class="btn">Search Again</button>
+			</form>
+		</section>
+	</main>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="bower_components/backbone/backbone-min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
