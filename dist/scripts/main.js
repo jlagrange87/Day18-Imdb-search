@@ -95,7 +95,7 @@ $(document).ready(function(){
 				watchList.push(movie);
 				console.log(watchList);
 			}
-			$(this).css("opacity", "0.5")
+			$(this).css("opacity", "0.5");
 		});
 	}
 });
